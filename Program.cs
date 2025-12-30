@@ -17,6 +17,11 @@ namespace FileManager_
 
             fileManager.CreateFolder("Program Files");
             fileManager.CreateFolder("Users");
+            fileManager.CreateFile("text");
+
+            fileManager.SetIndex(2);
+            fileManager.GoToSelectedCatalog();
+
 
             fileManager.Menu();
         }

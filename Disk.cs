@@ -11,7 +11,7 @@ namespace FileManager_
     {
         private Catalog currentCatalog;
         private Folder previousCatalog;
-        private string name;
+        public string name;
         private List<Catalog> roots;
 
         public Disk(string Name)
